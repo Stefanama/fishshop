@@ -1,0 +1,89 @@
+#fish-store-aquarium{
+    width: 1065px;
+    float: left;
+    height: 600px;
+    overflow-y: auto;
+    border-top: 30px solid #686868;
+    border-left: 3px solid #686868;
+    border-right: 3px solid #686868;
+    border-bottom: 3px solid #686868;
+    border-radius:5px;
+    background: #bee1ff;
+    
+}
+
+#fish-cart-aquarium{
+    width: 520px;
+    float: right;
+    height: 300px;
+    overflow-y: auto;
+    border-top: 30px solid #686868;
+    border-left: 3px solid #686868;
+    border-right: 3px solid #686868;
+    border-bottom: 3px solid #686868;
+    border-radius:5px;
+    background: #bee1ff;
+    
+}
+
+#fish-cart-aquarium.invalid{
+    background: red;
+}
+
+.fish{
+    margin: 1px;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #d1d1d1;
+    cursor: pointer;
+    width: 160px;
+    float: left;
+}
+
+.fish:hover{
+    background: #d1d1d1;
+}
+
+.fish img{
+    width: 30px;
+}
+.fish span{
+    float: right;
+    display: inline-block;
+    width: 130px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+}
+
+
+
+.blue.button {
+    float: right;
+    width: 526px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border:0px;
+}
+
+.blue.button:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+.blue.button:active {
+    background: #6fc5ff;
+}
+
+.blue.button[disabled]{
+    background: lightgrey;
+    color: grey;
+}
